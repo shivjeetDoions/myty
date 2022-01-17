@@ -16,15 +16,15 @@
   text-decoration: underline;
   text-decoration-color: #129b4b;
 }
-.navbar-nav .active {
+/* .navbar-nav .active {
   text-decoration: underline;
   text-decoration-color: yellow;
-}
+} */
 .zoom {
-  padding: 30px;
+  padding: 12px;
   transition: transform 0.2s;
-  width: 150px;
-  height: 150px;
+  width: auto;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -39,7 +39,7 @@
   width: 283px;
   position: relative;
   top: -2px;
-  right: -58px;
+  right: -20px;
   border-radius: 17px;
 }
 .mobile_view_sound {
@@ -47,13 +47,13 @@
   width: 113px;
   position: relative;
   top: -4px;
-  right: -70px;
+  right: -75px;
   border-radius: 5px;
 }
 
 /* mobile_view style end */
 /* transition style code start */
-.card_div_left {
+/* .card_div_left {
   width: 610px;
   height: 300px;
   position: relative;
@@ -64,16 +64,16 @@
   animation-name: sample;
   animation-duration: 3s;
   animation-fill-mode: forwards;
-}
-@keyframes sample {
+} */
+/* @keyframes sample {
   from {
     left: 0px;
   }
   to {
     left: 20px;
   }
-}
-.card_div_right {
+} */
+/* .card_div_right {
   width: 610px;
   height: 300px;
   position: relative;
@@ -84,22 +84,22 @@
   animation-name: sample_two;
   animation-duration: 3s;
   animation-fill-mode: forwards;
-}
-@keyframes sample_two {
+} */
+/* @keyframes sample_two {
   from {
     left: 0px;
   }
   to {
     left: -20px;
   }
-}
+} */
 /* transition style code start */
 @media (min-width: 768px) {
-  .navbar-nav.navbar-center {
+  /* .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-  }
+  } */
 }
 /* header section style */
 .nav-link:hover {
@@ -110,9 +110,21 @@
 .nav-link {
   color: #000;
 }
-/* header section style */
-@media screen and (min-width: 1024px) {
-  .hd_w {
-    width: 50%;
+/* header section style start */
+@media (min-width: 320px) {
+  .logo_img {
+    height: 34px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .hd_w_one {
+    width: 50%;
+  }
+  .hd_w_two {
+    width: 50%;
+  }
+  .logo_img {
+    height: 68px;
+  }
+}
+/* header section style end */
